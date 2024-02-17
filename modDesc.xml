@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="64">
+
+    <author>Kyosho</author>
+	
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>Manitou MC DK edit</en>
+    </title>
+	
+    <description>
+        <en><![CDATA[With its curves and distinctive black and red colours, the MC
+truck will delight you with its comfort and ease of use, but also with its design. 
+
+Duplex mast FVD 33 
+Price: 37000€
+Lifting height: 3.3 m
+
+Duplex mast FVD 37 
+Price: 38100€
+Lifting height: 3.7 m
+
+Duplex mast FVD 45 
+Price: 39900€
+Lifting height: 4.5 m
+
+Wheel variants: 
+Mitas TR09 / Mitas TR09 Twin
+Nokian TRI2 / Nokian TRI2 Twin
+Trelleborg TH400 / Trelleborg TH400 Twin]]></en>
+        <de><![CDATA[Der Geländestapler MC überzeugt durch seine Kurven
+und sein schwarz-rotes Design und bietet Komfort sowie Benutzerfreundlichkeit.
+
+Duplex-Mast FVD 33 
+Preis: 37000€
+Hubhöhe: 3.3 m
+
+Duplex-Mast FVD 37 
+Preis: 38100€
+Hubhöhe: 3.7 m
+
+Duplex-Mast FVD 45 
+Preis: 39900€
+Hubhöhe: 4.5 m
+
+Reifenvarianten: 
+Mitas TR09 / Mitas TR09 Twin
+Nokian TRI2 / Nokian TRI2 Twin
+Trelleborg TH400 / Trelleborg TH400 Twin]]></de>
+        <fr><![CDATA[Avec ses courbes et ses couleurs tranchées noir et rouge, le
+chariot MC plaît pour son confort et sa facilité d’utilisation mais aussi pour son design.
+
+Mât duplex FVD 33 
+Prix : 37000€
+Hauteur de levage : 3,3 m
+
+Mât duplex FVD 37 
+Prix : 38100€
+Hauteur de levage : 3,7 m
+
+Mât duplex FVD 45 
+Prix : 39900€
+Hauteur de levage : 4,5 m
+
+Variantes de pneus : 
+Mitas TR09 / Mitas TR09 Twin
+Nokian TRI2 / Nokian TRI2 Twin
+Trelleborg TH400 / Trelleborg TH400 Twin]]></fr>
+    </description>
+    
+	<iconFilename>icons/icon_MC.dds</iconFilename>
+    
+	<multiplayer supported="true"/>
+    
+	<storeItems>
+        <storeItem xmlFilename="xml/MC.xml"/>
+        <storeItem xmlFilename="xml/palletFork.xml"/>	
+    </storeItems>
+	
+    <l10n>
+        <text name="configuration_Hubmast_kurz">
+            <en>Lift mast FVD 33</en>
+            <de>Hubmast FVD 33</de>
+            <fr>Mât de levage FVD 33</fr>
+        </text>
+        <text name="configuration_Hubmast_mittel">
+            <en>Lift mast FVD 37</en>
+            <de>Hubmast FVD 37</de>
+            <fr>Mât de levage FVD 37</fr>
+        </text>
+        <text name="configuration_Hubmast_lang">
+            <en>Lift mast FVD 45</en>
+            <de>Hubmast FVD 45</de>
+            <fr>Mât de levage FVD 45</fr>
+        </text>
+        <text name="configuration_Mitas">
+            <en>Mitas TR09</en>
+            <de>Mitas TR09</de>
+            <fr>Mitas TR09</fr>
+        </text>
+        <text name="configuration_MitasTwinWheel">
+            <en>Mitas TR09 Twin</en>
+            <de>Mitas TR09 Twin</de>
+            <fr>Mitas TR09 Twin</fr>
+        </text>
+        <text name="configuration_Nokian">
+            <en>Nokian TRI2</en>
+            <de>Nokian TRI2</de>
+            <fr>Nokian TRI2</fr>
+        </text>
+        <text name="configuration_NokianTwinWheel">
+            <en>Nokian TRI2 Twin</en>
+            <de>Nokian TRI2 Twin</de>
+            <fr>Nokian TRI2 Twin</fr>
+        </text>
+        <text name="configuration_Trelleborg">
+            <en>Trelleborg TH400</en>
+            <de>Trelleborg TH400</de>
+            <fr>Trelleborg TH400</fr>
+        </text>
+        <text name="configuration_TrelleborgTwinWheel">
+            <en>Trelleborg TH400 Twin</en>
+            <de>Trelleborg TH400 Twin</de>
+            <fr>Trelleborg TH400 Twin</fr>
+        </text>
+        <text name="function_Gabelstapler">
+            <en>Forklift trucks are ideally suited for handling goods in internal transport.</en>
+            <de>Gabelstapler sind für den Warenumschlag im innerbetrieblichen Transport bestens geeignet.</de>
+            <fr>Les chariots élévateurs sont parfaitement adaptés à la manutention de marchandises en transport interne.</fr>
+        </text>
+        <text name="function_Gabelzinken">
+            <en>Forks are used to pick up transport goods.</en>
+            <de>Gabelzinken dienen zur Aufnahme von Transportgütern.</de>
+            <fr>Les fourches sont utilisées pour ramasser les marchandises à transporter.</fr>
+        </text>
+    </l10n>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKvehicles" title="DennisK" type="VEHICLE" img="Categories/CategoryVehicles.png" />
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
